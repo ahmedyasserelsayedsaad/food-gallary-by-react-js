@@ -1,0 +1,15 @@
+.det-btn{
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    transition:all 0.3s ease ;
+    padding:10px ;
+}
+.det-btn:hover{
+    background-color: rgb(245, 242, 237); 
+    border: 2px solid orangered;
+    color: orangered;
+    transform: scale(1.1);
+}

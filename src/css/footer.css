@@ -1,0 +1,44 @@
+.footer{
+    background-color: rgba(129, 100, 83, 0.534);
+    padding-top: 20px;
+}
+
+.logo img{
+    width: 90px;
+    height: 90px;
+}
+.heading{
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+.text{
+    font-size: 15px;
+    color: gray;
+    font-weight: 500;
+}
+.heading-2{
+    font-weight: 700;
+    padding-top: 10px;
+}
+.linkss a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding-left: 30px;
+    font-size:18px;
+    padding-top: 13px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+
+.linkss a:hover{
+    padding-left: 20px;
+}
+
+.end{
+    text-align: center;
+    font-family: cursive;
+    font-size: 19px;
+    font-weight: bold;
+}

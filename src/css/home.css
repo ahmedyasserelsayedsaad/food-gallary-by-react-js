@@ -1,0 +1,228 @@
+.home{
+    background-color: #faebeb9f;
+    margin-bottom: 40px;
+}
+.hero-content{
+ align-items: center;
+ margin-top: 100px;
+}
+.hero-title{
+    padding-top: 20px;
+}
+.hero-title span{
+ color: orangered;
+font-family: cursive;
+font-weight: bold;
+}
+
+p{
+    color: gray;
+    font-size: 17px;
+}
+
+.order-btn{
+    background-color: orangered;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    color: rgb(12, 12, 12);
+    font-size: 17px;
+    font-weight: bold;
+    transition:all 0.3s ease;
+    padding: 9px;
+}
+.order-btn:hover{
+    border: 2px solid orangered;
+    border-radius: 5px;
+    background-color: #faebeb9f;
+}
+.all-foods-btn a{
+    text-decoration: none;
+    color: black;
+}
+.all-foods-btn{
+    background-color: faebeb9f;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid orangered;
+    color: rgb(12, 12, 12);
+    font-size: 17px;
+    font-weight: bold;
+    transition:all 0.3s ease;
+    padding: 9px;
+}
+.all-foods-btn:hover{
+    border: 2px solid faebeb9f;
+    border-radius: 5px;
+    background-color: orangered;
+}
+.hero-service{
+    font-size: 17px;
+    font-weight: bold;
+}
+.home-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+}
+.home-logo img{
+    width: 390px;
+    height: 390px;
+}
+
+.cte{
+    margin-top: 40px;
+    display:flex;
+    text-align: center;
+    padding: 20px;
+    background-color:#df6c6c93 ;
+    transition: all 0.3s ease;
+}
+.cate-title{
+    padding: 20px;
+    font-weight: bold;
+}
+.cte:hover{
+    transform: translateY(-30%);
+}
+
+
+.service{
+    margin: 40px;
+    text-align: center;
+}
+.service h4{
+    padding: 10px;
+    font-size: 23px;
+    color: rgb(189, 0, 0);
+    text-transform: capitalize;
+}
+.service h2{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 7px;
+}
+.service h2 span{
+    color: orangered;
+    font-family: cursive;
+   
+}
+.feats{
+    background-color: white;
+}
+.service p{
+    color: gray;
+    font-weight: 700;
+}
+
+.mybtn{
+    background-color: orangered;
+    padding: 15px;
+    border-radius: 5px;
+}
+.mybtn button{
+    border: none;
+    border-radius:5px ;
+    background-color: orangered;
+    padding: 5px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    
+}
+.mybtn button span{
+    padding-left: 7px;
+   
+}
+.mybtn button img{
+    width: 40px;
+    height: 40px;
+}
+.mybtn button:focus,
+.mybtn button:hover{
+    background-color: white;
+    color:  black;
+}
+.cardimg{
+    transition:all 0.4s ease ;
+}
+.card{
+    border: none;
+    padding: 10px;
+    background-color: #ffffff;
+
+}
+.card:hover{
+    box-shadow: 0 0 10px gray;
+}
+.cardimg:hover{
+    transform: scale(0.7);
+}
+.card .card-body h5 a{
+  color:black;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+.card .info {
+   display: flex;
+   justify-content: space-between;
+   align-items: baseline;
+   margin-top: 20px;
+}
+.card .info p{
+    color: orangered;
+    font-size: 19px;
+    font-weight: bold;
+    padding-right: 24px;
+}
+.card .info a{
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    transition:all 0.3s ease ;
+}
+.card .info a:hover{
+    background-color: wheat; 
+    border: 2px solid orangered;
+    color: orangered;
+    transform: scale(1.1);
+}
+
+.testimonial__subtitle {
+    font-size: 1rem;
+  }
+  .testimonial__desc {
+    font-size: 0.8rem;
+  }
+
+
+  /*carty btn */
+  .carty{
+    position: fixed;
+    bottom: 130px;
+    right: 20px;
+    background-color: orangered;
+    padding: 10px;
+    outline: none;
+    border-radius: 15px;
+    border: 3px solid wheat;
+    transition: all 0.4s ease;
+    z-index: 9999;
+}
+.carty:hover{
+transform: scale(1.1);
+letter-spacing: 1px;
+}
+.carty a{
+    text-decoration: none;
+    color: rgb(247, 244, 240);
+    font-weight: bold;
+    font-size: 16px;
+   text-transform: capitalize;
+
+}
